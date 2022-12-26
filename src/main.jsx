@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { JustinaApp } from './JustinaApp';
-import {
-  BrowserRouter,
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
