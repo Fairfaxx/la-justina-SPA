@@ -8,6 +8,7 @@ export const products = [
     characters: 'Bruce Wayne',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'dc-superman',
@@ -18,6 +19,7 @@ export const products = [
     characters: 'Kal-El',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'dc-flash',
@@ -28,6 +30,7 @@ export const products = [
     characters: 'Jay Garrick, Barry Allen, Wally West, Bart Allen',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'dc-green',
@@ -39,6 +42,7 @@ export const products = [
       'Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'dc-arrow',
@@ -49,6 +53,7 @@ export const products = [
     characters: 'Oliver Queen',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'dc-wonder',
@@ -59,6 +64,7 @@ export const products = [
     characters: 'Princess Diana',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'dc-martian',
@@ -69,6 +75,7 @@ export const products = [
     characters: 'Martian Manhunter',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'dc-robin',
@@ -79,6 +86,7 @@ export const products = [
     characters: 'Dick Grayson',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'dc-blue',
@@ -89,6 +97,7 @@ export const products = [
     characters: 'Dan Garret, Ted Kord, Jaime Reyes',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'dc-black',
@@ -99,6 +108,7 @@ export const products = [
     characters: 'Dinah Drake, Dinah Lance',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'marvel-spider',
@@ -109,6 +119,7 @@ export const products = [
     characters: 'Peter Parker',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'marvel-captain',
@@ -119,6 +130,7 @@ export const products = [
     characters: 'Steve Rogers',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'marvel-iron',
@@ -129,6 +141,7 @@ export const products = [
     characters: 'Tony Stark',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'marvel-thor',
@@ -139,6 +152,7 @@ export const products = [
     characters: 'Thor Odinson',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'marvel-hulk',
@@ -149,6 +163,7 @@ export const products = [
     characters: 'Bruce Banner',
     type: 'Sales',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'marvel-wolverine',
@@ -159,6 +174,7 @@ export const products = [
     characters: 'James Howlett',
     type: 'Collection',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'marvel-daredevil',
@@ -169,6 +185,7 @@ export const products = [
     characters: 'Matthew Michael Murdock',
     type: 'Sales',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'marvel-hawkeye',
@@ -179,6 +196,7 @@ export const products = [
     characters: 'Clinton Francis Barton',
     type: 'Sales',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'marvel-cyclops',
@@ -189,6 +207,7 @@ export const products = [
     characters: 'Scott Summers',
     type: 'Sales',
     price: '$2500',
+    stock: 'Si',
   },
   {
     id: 'marvel-silver',
@@ -199,5 +218,6 @@ export const products = [
     characters: 'Norrin Radd',
     type: 'Sales',
     price: '$2500',
+    stock: 'Si',
   },
 ];
