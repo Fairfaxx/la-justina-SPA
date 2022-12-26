@@ -16,7 +16,7 @@ export const ProductsRoutes = () => {
           <Route path="sales" element={<Sales />} />
 
           <Route path="search" element={<SearchPage />} />
-          <Route path="product" element={<ProductPage />} />
+          <Route path="product/:id" element={<ProductPage />} />
         </Routes>
       </div>
     </>
