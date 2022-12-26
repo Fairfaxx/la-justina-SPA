@@ -12,7 +12,10 @@ export const ProductCard = ({
 }) => {
   const productImageUrl = `/assets/heroes/${id}.jpg`;
   return (
-    <div className="card me-3" style={{ width: '18rem' }}>
+    <div
+      className="card me-3 animate__animated animate__fadeIn"
+      style={{ width: '18rem' }}
+    >
       <img src={productImageUrl} className="card-img-top" alt={superhero} />
       <div className="card-body">
         <h5 className="card-title">{superhero}</h5>
