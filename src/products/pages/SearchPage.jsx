@@ -20,7 +20,7 @@ export const SearchPage = () => {
   const onSearchSubmit = (e) => {
     e.preventDefault();
 
-    if (searchText.trim().length <= 1) return;
+    // if (searchText.trim().length <= 1) return;
     navigate(`?q=${searchText}`);
   };
 
@@ -49,11 +49,17 @@ export const SearchPage = () => {
         <div className="col-7">
           <h4>Resultados</h4>
           <hr />
-          <div className="alert alert-primary">Buscar producto</div>
-          <div className="alert alert-danger">
-            No encontramos ningun <b>{q}</b>
-          </div>
-
+          {q === '' ? (
+            <div className="alert alert-primary animate__animated animate__fadeIn">
+              Buscar producto
+            </div>
+          ) : (
+            products.length === 0 && (
+              <div className="alert alert-danger animate__animated animate__fadeIn">
+                No encontramos ningun <b>{q}</b>
+              </div>
+            )
+          )}
           {products?.map((product) => (
             <div key={product.id} className="mb-3">
               <ProductCard {...product} />
